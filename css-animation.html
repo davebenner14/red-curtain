@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS Animation</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css-animation.css">
 </head>
 <body>
-    <div class="curtain"></div>
-    <a href="index.html">Back</a>
+    <div class="curtain-wrapper">
+        <div class="curtain left"></div>
+        <div class="curtain right"></div>
+    </div>
+    <div class="buttons">
+        <a href="index.html" class="btn">Back</a>
+        <a href="#" class="btn" onclick="window.location.reload();">Reopen Curtain</a>
+    </div>
 </body>
 </html>
