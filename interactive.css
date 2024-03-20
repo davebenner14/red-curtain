@@ -14,6 +14,7 @@
 .rnInner {
     width: 100%;
     position: absolute;
+    background: black;
     top: -10%;
     right: 0;
     bottom: 0;
@@ -60,6 +61,7 @@
 .aoTableCell {
     color: var(--accent-darken);
     display: table-cell;
+    background: black;
     vertical-align: middle;
     transition: color 3s ease;
 }
