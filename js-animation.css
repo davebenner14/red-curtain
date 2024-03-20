@@ -83,3 +83,18 @@ body, html {
 .btn:hover, .back-button:hover {
     background-color: #444;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .curtain {
+        width: 100vw; 
+    }
+    
+    .btn, .back-button {
+        padding: 8px 16px; 
+    }
+    
+    .buttons, .back-button {
+        font-size: 0.9rem; 
+    }
+}

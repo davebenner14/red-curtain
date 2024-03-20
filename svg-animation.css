@@ -76,3 +76,22 @@ body, html {
 .btn:hover {
     background-color: #444;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #leftCurtain, #rightCurtain {
+        /* Adjust animation timing to be quicker on smaller devices */
+        animation-duration: 2s;
+    }
+
+    .back-button, .btn {
+        /* Increase size for easier interaction on touch devices */
+        padding: 15px 25px;
+        font-size: 1.1rem;
+    }
+
+    .button-container {
+        /* Adjust position for visibility and accessibility */
+        bottom: 10px;
+    }
+}

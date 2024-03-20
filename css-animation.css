@@ -89,3 +89,20 @@ body, html {
 .btn:hover {
     background-color: #444;
 }
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .curtain {
+        width: 100vw;
+    }
+    
+    .btn, .buttons {
+        padding: 8px 16px; 
+        font-size: 14px; 
+    }
+
+    .buttons {
+        bottom: 10px; 
+    }
+}

@@ -82,3 +82,24 @@
     border-radius: 5px;
     transition: background-color 0.3s;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .rnUnit {
+        width: 20vw; 
+    }
+    
+    .btn, .aoTableCell {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+    
+    .rnOuter, .aoTable {
+        height: auto; 
+        min-height: 100vh; 
+    }
+    
+    .aoTableCell {
+        padding: 20px; 
+    }
+}
