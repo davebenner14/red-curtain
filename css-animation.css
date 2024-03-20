@@ -32,12 +32,12 @@ body, html {
 
 .curtain.left {
     left: 0;
-    animation: slideLeft 6s forwards cubic-bezier(0.22, 1, 0.36, 1);
+    animation: slideLeft 15s forwards cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .curtain.right {
     right: 0;
-    animation: slideRight 6s forwards cubic-bezier(0.22, 1, 0.36, 1);
+    animation: slideRight 15s forwards cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @keyframes slideLeft {

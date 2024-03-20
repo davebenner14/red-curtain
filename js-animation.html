@@ -6,9 +6,14 @@
     <link rel="stylesheet" href="js-animation.css">
 </head>
 <body>
-    <div id="curtainLeft" class="curtain"></div>
-    <div id="curtainRight" class="curtain"></div>
-    <script src="script.js"></script>
-    <a href="index.html">Back</a>
+    <div class="curtain-wrapper">
+        <div id="curtainLeft" class="curtain"></div>
+        <div id="curtainRight" class="curtain"></div>
+    </div>
+    <div class="buttons">
+        <a href="index.html" class="btn">Back</a>
+        <button onclick="replayAnimation()" class="btn">Replay</button>
+    </div>
+    <script src="js-animation.js"></script>
 </body>
 </html>
