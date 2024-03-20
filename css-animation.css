@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden;
-    background: #000; /* Simulate a theatre setting */
+    background: #000; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,6 @@ body, html {
     bottom: 0;
     width: 50vw;
     background-color: red;
-    /* Simulate fabric texture with gradient */
     background: linear-gradient(
         rgba(255, 0, 0, 0.9),
         rgba(128, 0, 0, 0.9)
@@ -33,12 +32,12 @@ body, html {
 
 .curtain.left {
     left: 0;
-    animation: slideLeft 4s forwards cubic-bezier(0.22, 1, 0.36, 1);
+    animation: slideLeft 6s forwards cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .curtain.right {
     right: 0;
-    animation: slideRight 4s forwards cubic-bezier(0.22, 1, 0.36, 1);
+    animation: slideRight 6s forwards cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @keyframes slideLeft {
@@ -49,7 +48,6 @@ body, html {
     to { transform: translateX(100vw); }
 }
 
-/* Curtain Rod */
 .curtain-wrapper::before {
     content: "";
     position: absolute;
