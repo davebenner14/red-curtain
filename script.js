@@ -7,3 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
         curtainRight.style.transform = 'translateX(100vw)';
     }, 1000);
 });
+function replayAnimation() {
+    window.location.reload();
+}

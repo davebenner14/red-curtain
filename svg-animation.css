@@ -1,0 +1,78 @@
+/* svg-animation.css */
+@keyframes openCurtainLeft {
+    to {
+        transform: translateX(-110%);
+    }
+}
+
+@keyframes openCurtainRight {
+    to {
+        transform: translateX(110%);
+    }
+}
+
+#leftCurtain, #rightCurtain {
+    transform-origin: top center;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+#leftCurtain {
+    animation: openCurtainLeft 3s;
+}
+
+#rightCurtain {
+    animation: openCurtainRight 3s;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #444;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #444;
+}
